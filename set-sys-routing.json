@@ -1,0 +1,5 @@
+{
+  "customer_metadata": {
+    "set-sys-routing.sh": "/usr/sbin/ifconfig net0 destination `/usr/sbin/mdata-get sdc:nics.0.gateway`; /usr/sbin/route add default `/usr/sbin/mdata-get sdc:nics.0.gateway` "
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "nics": [
+    {
+      "nic_tag": "external",
+      "mac": "fi:xe:ma:ca:dd:rr",
+      "ip": "fixed.ip.address",
+      "netmask": "255.255.255.255",
+      "gateway": "ptpgatewayaddr",
+      "primary": 1
+    }
+  ]
+}

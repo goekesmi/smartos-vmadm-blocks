@@ -1,0 +1,5 @@
+{
+  "customer_metadata": {
+    "set-domain-name.sh": "echo 'domain DOMAIN' >> /etc/resolv.conf; "
+  }
+}

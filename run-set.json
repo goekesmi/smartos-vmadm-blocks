@@ -1,0 +1,5 @@
+{
+  "customer_metadata": {
+    "user-script": "mkdir /root/boot/; for script in `mdata-list | grep .sh$ | sort` ; do mdata-get $script > /root/boot/$script; chmod a+x /root/boot/$script; /root/boot/$script; done;"
+  }
+}

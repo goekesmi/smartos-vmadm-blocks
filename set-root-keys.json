@@ -1,0 +1,5 @@
+{
+  "customer_metadata": {
+    "set-root-keys.sh": "/usr/sbin/mdata-get root_authorized_keys > ~root/.ssh/authorized_keys ; /usr/sbin/mdata-get root_authorized_keys > ~admin/.ssh/authorized_keys; "
+  }
+}
